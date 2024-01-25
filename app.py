@@ -67,7 +67,7 @@ def main():
     print("Bienvenue dans le Quiz Game!")
 
     # Charger les questions depuis le fichier unique
-    questions = load_questions("C:/Users/lauj4/Documents/quiz-game-jason/questions.txt")  # Utilisez le nom du fichier
+    questions = load_questions("questions.txt")  # Utilisez le nom du fichier
 
     # Exécuter le quiz
     run_quiz(questions)
