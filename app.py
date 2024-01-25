@@ -1,4 +1,5 @@
 import os
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 def load_questions(file_path):
     questions = []
 
